@@ -38,7 +38,7 @@ import data.db.DBAdapter;
 import data.model.Conference;
 import data.model.Paper;
 import data.parser.RecommendParse;
-import edu.pitt.is.HT2015.R;
+import edu.pitt.is.DH2016.R;
 
 public class MyRecommendedPapers extends Activity implements Runnable {
     private final int MENU_HOME = Menu.FIRST;

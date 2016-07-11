@@ -31,7 +31,7 @@ import data.UserScheduledToServer;
 import data.db.DBAdapter;
 import data.model.Author;
 import data.model.Conference;
-import edu.pitt.is.HT2015.R;
+import edu.pitt.is.DH2016.R;
 
 public class Authors extends Activity implements OnItemClickListener/*OnScrollListener*/, Runnable {
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="hello">Hello World!</string>
-    <string name="app_name">CN 2016</string>
+    <string name="app_name">DH 2016</string>
     <string name="select">Choose a conference</string>
     <string-array name="conference_array">  
         <item>UMAP2015</item>

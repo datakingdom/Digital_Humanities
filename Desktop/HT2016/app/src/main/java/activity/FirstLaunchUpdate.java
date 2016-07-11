@@ -32,7 +32,7 @@ import data.parser.KeynoteWorkshopParser;
 import data.parser.LoadPaperFromDB;
 import data.parser.LoadSessionFromDB;
 import data.parser.PaperContentParse;
-import edu.pitt.is.HT2015.R;
+import edu.pitt.is.DH2016.R;
 
 public class FirstLaunchUpdate extends Activity {
 

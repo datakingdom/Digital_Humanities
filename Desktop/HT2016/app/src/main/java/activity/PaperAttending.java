@@ -29,7 +29,7 @@ import java.util.ArrayList;
 import data.model.Conference;
 import data.model.UserBreif;
 import data.parser.UserAttendingParse;
-import edu.pitt.is.HT2015.R;
+import edu.pitt.is.DH2016.R;
 
 public class PaperAttending extends Activity {
 

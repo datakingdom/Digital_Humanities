@@ -43,7 +43,7 @@ import data.model.Conference;
 import data.model.Paper;
 import data.model.Session;
 import data.parser.UserScheduleParse;
-import edu.pitt.is.HT2015.R;
+import edu.pitt.is.DH2016.R;
 
 public class MyScheduledPapers extends Activity implements Runnable {
     private final int MENU_HOME = Menu.FIRST;

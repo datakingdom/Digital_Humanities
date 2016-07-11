@@ -5,7 +5,7 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "edu.pitt.is.HT2015"
+        applicationId "edu.pitt.is.DH2016"
         minSdkVersion 4
         targetSdkVersion 4
     }

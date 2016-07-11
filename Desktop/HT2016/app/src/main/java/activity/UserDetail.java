@@ -17,7 +17,7 @@ import data.model.Conference;
 import data.model.User;
 import data.parser.UserProfileParse;
 import data.parser.UserScheduleParse;
-import edu.pitt.is.HT2015.R;
+import edu.pitt.is.DH2016.R;
 
 public class UserDetail extends Activity {
 

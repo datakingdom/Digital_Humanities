@@ -34,7 +34,7 @@ import data.db.DBAdapter;
 import data.model.Conference;
 import data.model.Paper;
 import data.model.Session;
-import edu.pitt.is.HT2015.R;
+import edu.pitt.is.DH2016.R;
 
 public class WorkshopDetail extends Activity implements Runnable {
     private final int MENU_HOME = Menu.FIRST;

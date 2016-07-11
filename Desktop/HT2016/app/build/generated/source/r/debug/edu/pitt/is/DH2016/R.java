@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package edu.pitt.is.HT2015;
+package edu.pitt.is.DH2016;
 
 public final class R {
     public static final class array {

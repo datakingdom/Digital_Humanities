@@ -20,7 +20,7 @@ import android.widget.TextView;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import edu.pitt.is.HT2015.R;
+import edu.pitt.is.DH2016.R;
 
 public class KeynoteDetail extends Activity {
     private final int MENU_HOME = Menu.FIRST;

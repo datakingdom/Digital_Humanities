@@ -28,7 +28,7 @@ import data.db.DBAdapter;
 import data.model.Paper;
 import data.model.Poster;
 import data.model.Session;
-import edu.pitt.is.HT2015.R;
+import edu.pitt.is.DH2016.R;
 
 public class Posters extends Activity {
     private final int MENU_HOME = Menu.FIRST;

@@ -138,7 +138,7 @@
     <drawable name="darkblue">#42426F</drawable>
     <drawable name="lightblue">#ADD8E6</drawable>
     <string name="action_settings">Settings</string>
-    <string name="app_name">CN 2016</string>
+    <string name="app_name">DH 2016</string>
     <string name="hello">Hello World!</string>
     <string name="hello_world">Hello world!</string>
     <string name="select">Choose a conference</string>

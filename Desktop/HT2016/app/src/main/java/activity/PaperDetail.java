@@ -11,7 +11,7 @@ import android.view.WindowManager;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 
-import edu.pitt.is.HT2015.R;
+import edu.pitt.is.DH2016.R;
 
 public class PaperDetail extends TabActivity {
     private final int MENU_HOME = Menu.FIRST;

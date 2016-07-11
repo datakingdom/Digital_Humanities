@@ -42,7 +42,7 @@ import data.parser.LoadSessionFromDB;
 import data.parser.PaperContentParse;
 import data.parser.RecommendParse;
 import data.parser.UserScheduleParse;
-import edu.pitt.is.HT2015.R;
+import edu.pitt.is.DH2016.R;
 
 public class UpdateOption extends Activity {
 

@@ -8,7 +8,7 @@ import android.webkit.WebView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import edu.pitt.is.HT2015.R;
+import edu.pitt.is.DH2016.R;
 
 public class HeaderView extends LinearLayout {
 

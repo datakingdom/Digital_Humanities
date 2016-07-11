@@ -25,7 +25,7 @@ import java.util.HashSet;
 import data.db.DBAdapter;
 import data.model.Session;
 import data.model.Workshop;
-import edu.pitt.is.HT2015.R;
+import edu.pitt.is.DH2016.R;
 
 public class Workshops extends Activity {
     private final int MENU_HOME = Menu.FIRST;

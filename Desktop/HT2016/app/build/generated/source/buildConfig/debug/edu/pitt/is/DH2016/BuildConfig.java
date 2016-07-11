@@ -1,11 +1,11 @@
 /**
  * Automatically generated file. DO NOT MODIFY
  */
-package edu.pitt.is.HT2015;
+package edu.pitt.is.DH2016;
 
 public final class BuildConfig {
   public static final boolean DEBUG = false;
-  public static final String APPLICATION_ID = "edu.pitt.is.HT2015";
+  public static final String APPLICATION_ID = "edu.pitt.is.DH2016";
   public static final String BUILD_TYPE = "debug";
   public static final String FLAVOR = "";
   public static final int VERSION_CODE = 3;

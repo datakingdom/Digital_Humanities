@@ -33,7 +33,7 @@ import data.UserScheduledToServer;
 import data.db.DBAdapter;
 import data.model.Conference;
 import data.model.Paper;
-import edu.pitt.is.HT2015.R;
+import edu.pitt.is.DH2016.R;
 
 public class MyStaredPapers extends Activity implements Runnable {
     private final int MENU_HOME = Menu.FIRST;

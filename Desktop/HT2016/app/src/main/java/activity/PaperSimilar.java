@@ -39,7 +39,7 @@ import data.db.DBAdapter;
 import data.model.Conference;
 import data.model.Paper;
 import data.parser.UserPaperSimilar;
-import edu.pitt.is.HT2015.R;
+import edu.pitt.is.DH2016.R;
 
 public class PaperSimilar extends Activity implements Runnable {
     private ArrayList<Paper> pList;

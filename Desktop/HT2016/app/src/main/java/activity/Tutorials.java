@@ -23,7 +23,7 @@ import java.util.Date;
 
 import data.db.DBAdapter;
 import data.model.Paper;
-import edu.pitt.is.HT2015.R;
+import edu.pitt.is.DH2016.R;
 
 public class Tutorials extends Activity {
 

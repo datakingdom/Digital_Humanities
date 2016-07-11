@@ -27,7 +27,7 @@ import java.util.Hashtable;
 import data.model.Conference;
 import data.model.Friend;
 import data.parser.UserFriendParse;
-import edu.pitt.is.HT2015.R;
+import edu.pitt.is.DH2016.R;
 
 public class MyFriends extends Activity {
 

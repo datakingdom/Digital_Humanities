@@ -1,14 +1,14 @@
 #What is it?
 
-This is an Android app of Conference Navigator for Hypertext 2015 Conference (http://ht.acm.org/ht2015/).
+This is an Android app of Conference Navigator for Digital Humanities 2016 Conference (http://ht.acm.org/ht2015/).
   
 The app allows to view conference schedule, presented papers, workshops, tutorials, keynotes, posters, etc. You can mark and schedule papers you liked and interested to attend.  
   
 The schedule is being synchronized with the Web version of Conference Navigator @ http://halley.exp.sis.pitt.edu/cn3/conferenceHomePage.php?conferenceID=136
   
-Google play : https://play.google.com/store/apps/details?id=edu.pitt.is.HT2015
+Google play : https://play.google.com/store/apps/details?id=edu.pitt.is.DH2016
 
-Credits: Hong Zhang, Kaimin Zheng, Yijin Wu & PAWS Lab
+Credits: Hong Zhang, Kaimin Zheng, Yijin Wu, Wenshuo Gao & PAWS Lab
 
 ##Features
 

@@ -26,7 +26,7 @@ import android.widget.Toast;
 import data.db.CheckDBUpdate;
 import data.db.DBAdapter;
 import data.model.Conference;
-import edu.pitt.is.HT2015.R;
+import edu.pitt.is.DH2016.R;
 
 public class MainInterface extends Activity {
 
