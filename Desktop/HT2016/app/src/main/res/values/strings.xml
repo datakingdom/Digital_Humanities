@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">CN 2016</string>
+    <string name="select">Choose a conference</string>
+    <string-array name="conference_array">  
+        <item>UMAP2015</item>
+        <item>iConference2015</item>
+    </string-array>
+    <string name="title_activity_first_launch_update">firstLaunchUpdate</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tutorials">Tutorials</string>
+    <string name="title_activity_authors">Authors</string>
+    <string name="title_activity_author_detail">AuthorDetail</string> 
+</resources>

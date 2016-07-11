@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/White"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5pt"
+        android:textColor="@drawable/darkblue"
+        android:textSize="8pt"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5pt"
+        android:paddingRight="5pt"
+        android:textColor="@drawable/Gray"></TextView>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5pt"
+        android:paddingLeft="5pt"
+        android:paddingRight="5pt">
+
+        <!--<TextView-->
+            <!--android:id="@+id/TextView03"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:paddingRight="5pt"-->
+            <!--android:text=""-->
+            <!--android:textColor="@drawable/Gray"></TextView>-->
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5pt"
+            android:textColor="@drawable/SteelBlue"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="5pt"
+        android:paddingRight="5pt">
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5pt"
+            android:text="BY "
+            android:textColor="@drawable/Gray"></TextView>
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5pt"
+            android:textColor="@drawable/SteelBlue"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout011"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5pt"
+        android:paddingLeft="5pt"
+        android:paddingRight="5pt">
+
+        <TextView
+            android:id="@+id/TextView031"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5pt"
+            android:text="PDF "
+            android:textColor="@drawable/Gray"></TextView>
+
+        <TextView
+            android:id="@+id/PaperButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="5pt"
+            android:textColor="@drawable/SteelBlue"></TextView>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:layout_below="@id/LinearLayout02"
+        android:background="?android:attr/listDivider" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout03"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="5pt"
+        android:paddingRight="5pt">
+
+        <ImageButton
+            android:id="@+id/ImageButton01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/White"
+            android:paddingLeft="5pt"
+            android:src="@drawable/no_schedule"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/ImageButton02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/White"
+            android:paddingLeft="5pt"
+            android:src="@drawable/no_star"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/ImageButton03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/White"
+            android:paddingLeft="5pt"
+            android:src="@drawable/share"></ImageButton>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="?android:attr/listDivider" />
+
+    <WebView
+        android:id="@+id/WebView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10pt"></WebView>
+
+</LinearLayout>

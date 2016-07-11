@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/White"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/FrameLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundrectshape"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="My schedule"
+            android:textColor="@drawable/White"
+            android:textSize="10pt"
+            android:textStyle="bold">
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/ImageButton01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_gravity="right"
+            android:src="@drawable/update"
+            android:background="@android:color/transparent"/>
+
+    </FrameLayout>
+
+    <TabHost
+        android:id="@+id/tabdates"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/lightblue" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/White">
+
+                <ExpandableListView
+                    android:id="@+id/day1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/White"
+                    android:choiceMode="singleChoice"
+                    android:clickable="true"
+                    android:drawSelectorOnTop="true"
+                    android:fastScrollEnabled="true"
+                    android:footerDividersEnabled="true">
+                </ExpandableListView>
+
+                <ExpandableListView
+                    android:id="@+id/day2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/White"
+                    android:choiceMode="singleChoice"
+                    android:clickable="true"
+                    android:drawSelectorOnTop="false"
+                    android:fastScrollEnabled="true"
+                    android:footerDividersEnabled="true">
+                </ExpandableListView>
+
+                <ExpandableListView
+                    android:id="@+id/day3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/White"
+                    android:choiceMode="singleChoice"
+                    android:clickable="true"
+                    android:drawSelectorOnTop="false"
+                    android:fastScrollEnabled="true"
+                    android:footerDividersEnabled="true">
+                </ExpandableListView>
+
+                <ExpandableListView
+                    android:id="@+id/day4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/White"
+                    android:choiceMode="singleChoice"
+                    android:clickable="true"
+                    android:drawSelectorOnTop="false"
+                    android:fastScrollEnabled="true"
+                    android:footerDividersEnabled="true">
+                </ExpandableListView>
+
+                <ExpandableListView
+                    android:id="@+id/day5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/White"
+                    android:choiceMode="singleChoice"
+                    android:clickable="true"
+                    android:drawSelectorOnTop="false"
+                    android:fastScrollEnabled="true"
+                    android:footerDividersEnabled="true">
+                </ExpandableListView>
+
+                <ExpandableListView
+                    android:id="@+id/day6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/White"
+                    android:choiceMode="singleChoice"
+                    android:clickable="true"
+                    android:drawSelectorOnTop="false"
+                    android:fastScrollEnabled="true"
+                    android:footerDividersEnabled="true">
+                </ExpandableListView>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>

@@ -1,0 +1,91 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back2">
+
+    <FrameLayout
+        android:id="@+id/FrameLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/banner">
+
+        <!--<TextView-->
+            <!--android:id="@+id/TextView01"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:text="HOME"-->
+            <!--android:textColor="@drawable/White"-->
+            <!--android:textSize="10pt"-->
+            <!--android:textStyle="bold">-->
+        <!--</TextView>-->
+
+        <ImageButton
+            android:id="@+id/ImageButton01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:src="@drawable/update"
+            android:background="@android:color/transparent">
+        </ImageButton>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/head1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FrameLayout01"
+        android:background="@drawable/roundrectshape"
+        android:gravity="left"
+        android:text="CN 2016"
+        android:textColor="@drawable/Black">
+    </TextView>
+
+    <GridView
+        android:id="@+id/GridView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/head1"
+        android:columnWidth="80dp"
+        android:horizontalSpacing="0dp"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth">
+    </GridView>
+
+    <TextView
+        android:id="@+id/head4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/GridView01"
+        android:background="@drawable/roundrectshape"
+        android:gravity="left"
+        android:text="My CN 2016"
+        android:textColor="@drawable/Black">
+    </TextView>
+
+    <GridView
+        android:id="@+id/GridView04"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/head4"
+        android:columnWidth="80dp"
+        android:horizontalSpacing="0dp"
+        android:numColumns="auto_fit"
+        android:paddingBottom="10dp"
+        android:stretchMode="columnWidth">
+    </GridView>
+
+    <!--<Spinner-->
+        <!--android:id="@+id/spinner1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="75dp"-->
+        <!--android:entries="@array/conference_array"-->
+        <!--android:prompt="@string/select" />-->
+
+</RelativeLayout>

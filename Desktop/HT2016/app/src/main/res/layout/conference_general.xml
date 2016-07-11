@@ -1,0 +1,126 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/White">
+
+    <FrameLayout
+        android:id="@+id/FrameLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundrectshape">
+
+        <TextView
+            android:id="@+id/TextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Introduction"
+            android:textColor="@drawable/White"
+            android:textSize="10pt"
+            android:textStyle="bold"></TextView>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FrameLayout01"
+        android:padding="5pt"
+        android:textColor="@drawable/darkblue"
+        android:textSize="8pt"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView01"
+        android:paddingLeft="5pt"
+        android:paddingRight="5pt"
+        android:textColor="@drawable/Gray"></TextView>
+
+    <RelativeLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextView02"
+        android:paddingBottom="5pt"
+        android:paddingLeft="5pt"
+        android:paddingRight="1pt">
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AT "
+
+            android:textColor="@drawable/Gray"></TextView>
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/TextView03"
+            android:paddingRight="10pt"
+            android:textColor="@drawable/SteelBlue"></TextView>
+
+        <Button
+            android:id="@+id/map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/google_map"></Button>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LinearLayout01"
+        android:paddingBottom="5pt"
+        android:paddingLeft="5pt"
+        android:paddingRight="5pt"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5pt"
+            android:text="BY "
+            android:textColor="@drawable/Gray"></TextView>
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/TextView05"
+            android:paddingRight="5pt"
+            android:textColor="@drawable/SteelBlue"></TextView>
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/TextView06"
+            android:layout_below="@id/TextView06"
+            android:paddingRight="5pt"
+            android:textColor="@drawable/SteelBlue"></TextView>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:layout_below="@id/LinearLayout02"
+        android:background="?android:attr/listDivider" />
+
+    <WebView
+        android:id="@+id/WebView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/view"
+        android:padding="10pt"></WebView>
+</RelativeLayout>

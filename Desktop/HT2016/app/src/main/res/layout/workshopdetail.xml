@@ -1,0 +1,81 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/White"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/FrameLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundrectshape">
+
+        <TextView
+            android:id="@+id/TextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Workshop"
+            android:textColor="@drawable/White"
+            android:textSize="10pt"
+            android:textStyle="bold"></TextView>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FrameLayout01"
+        android:padding="5pt"
+        android:textColor="@drawable/darkblue"
+        android:textSize="8pt"
+        android:textStyle="bold"></TextView>
+
+    <!--<TextView-->
+        <!--android:id="@+id/TextView02"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/TextView01"-->
+        <!--android:paddingLeft="5pt"-->
+        <!--android:paddingRight="5pt"-->
+        <!--android:textColor="@drawable/Gray"></TextView>-->
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextView02"
+        android:orientation="horizontal"
+        android:paddingBottom="5pt"
+        android:paddingLeft="5pt"
+        android:paddingRight="5pt">
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5pt"
+            android:text="AT "
+            android:textColor="@drawable/Gray"></TextView>
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5pt"
+            android:textColor="@drawable/SteelBlue"></TextView>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="?android:attr/listDivider" />
+
+    <ListView
+        android:id="@+id/ListView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"></ListView>
+</LinearLayout>

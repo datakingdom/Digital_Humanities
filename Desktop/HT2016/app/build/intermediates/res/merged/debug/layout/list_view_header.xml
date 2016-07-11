@@ -1,0 +1,19 @@
+<LinearLayout android:id="@+id/headerlayout"
+xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:background="@drawable/White">
+	<TextView android:id="@+id/expandbutton"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Content(click to see description of this workshop)"
+		android:drawableLeft="@drawable/bullet_arrow_up"
+		android:padding="5pt">
+	</TextView>
+	<WebView android:id="@+id/WebView01" 
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent" 
+		android:padding="10pt">
+	</WebView>
+</LinearLayout>

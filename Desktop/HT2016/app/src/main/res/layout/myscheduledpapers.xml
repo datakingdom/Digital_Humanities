@@ -1,0 +1,54 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <FrameLayout
+        android:id="@+id/FrameLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundrectshape">
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="My shecule"
+            android:textColor="@drawable/White"
+            android:textSize="10pt"
+            android:textStyle="bold">
+        </TextView>
+        <ImageButton
+            android:id="@+id/ImageButton01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:src="@drawable/update"
+            android:background="@android:color/transparent">
+        </ImageButton>
+
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/ListView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/FrameLayout01"
+        android:background="@drawable/White">
+    </ListView>
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FrameLayout01"
+        android:gravity="center"
+        android:text="Schedule papers of interest here"
+        android:textColor="@drawable/YellowSilver"
+        android:textStyle="italic"
+        android:visibility="gone">
+    </TextView>
+
+</RelativeLayout>

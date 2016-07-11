@@ -1,0 +1,35 @@
+<RelativeLayout android:id="@+id/RelativeLayout01"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<FrameLayout android:id="@+id/FrameLayout01"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/roundrectshape">
+	<TextView android:id="@+id/TextView01"
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent"
+		android:gravity="center" 
+		android:textSize="10pt" 
+		android:textStyle="bold"
+		android:text="My Favorite" 
+		android:textColor="@drawable/White">
+	</TextView>
+	</FrameLayout>	
+	<ListView android:id="@+id/ListView01" 
+	android:layout_below="@+id/FrameLayout01"
+		android:layout_height="fill_parent" 
+		android:layout_width="fill_parent"
+		android:background="@drawable/White">
+	</ListView>
+	<TextView android:id="@+id/TextView02" 
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent" 
+		android:gravity="center" 
+		android:textStyle="italic"
+		android:layout_below="@+id/FrameLayout01" 
+		android:textColor="@drawable/darkblue" 
+		android:visibility="gone" 
+		android:text="Star, or Bookmark papers of interest here">
+	</TextView>
+</RelativeLayout>

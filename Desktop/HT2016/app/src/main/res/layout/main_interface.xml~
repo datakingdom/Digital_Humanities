@@ -1,0 +1,58 @@
+<RelativeLayout android:id="@+id/RelativeLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:background="@drawable/back">
+<FrameLayout android:id="@+id/FrameLayout01"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/rectshape">
+	<TextView android:id="@+id/TextView01"
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent"
+		android:gravity="center" 
+		android:textSize="10pt" 
+		android:textStyle="bold"
+		android:text="HOME" 
+		android:textColor="@drawable/White">
+	</TextView>
+	<ImageButton android:id="@+id/ImageButton01"
+		android:src="@drawable/update"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="right">
+	</ImageButton>
+	</FrameLayout>	
+	<TextView android:id="@+id/head1" 
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/FrameLayout01"
+		android:gravity="left" 
+		android:layout_width="fill_parent"
+		android:background="@drawable/roundrectshape"
+		android:textColor="@drawable/Black"
+		android:text="iConf2013">
+</TextView>
+<GridView android:id="@+id/GridView01" 
+		android:layout_width="fill_parent"
+		android:columnWidth="70dp" 
+		android:horizontalSpacing="10dp"
+		android:numColumns="auto_fit" 
+		android:stretchMode="columnWidth"
+		android:layout_height="wrap_content" 
+		android:layout_below="@+id/head1">
+</GridView>
+<TextView android:id="@+id/head4" 
+		android:layout_height="wrap_content"
+		android:layout_below="@id/GridView01"
+		android:gravity="left" 
+		android:layout_width="fill_parent" 
+		android:background="@drawable/roundrectshape"
+		android:textColor="@drawable/Black"
+		android:text="My iConf2013">
+</TextView>
+<GridView android:id="@+id/GridView04" android:layout_width="fill_parent"
+		android:columnWidth="70dp" android:horizontalSpacing="10dp"
+		android:paddingBottom="10dp"
+		android:numColumns="auto_fit" android:stretchMode="columnWidth"
+		android:layout_height="wrap_content" android:layout_below="@+id/head4">
+</GridView>
+</RelativeLayout>

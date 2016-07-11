@@ -1,0 +1,232 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:2:1-118:12
+	package
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:5:5-32
+		INJECTED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:7:5-43
+	android:targetSdkVersion
+		INJECTED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:7:15-40
+		INJECTED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:10:22-64
+application
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:12:5-116:19
+	android:label
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:13:9-38
+activity#activity.iConference
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:15:9-24:20
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:18:13-49
+	android:label
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:17:13-45
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:16:13-48
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:22:27-74
+activity#activity.UpdateOption
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:25:9-27:52
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:27:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:26:13-49
+activity#activity.MainInterface
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:28:9-30:52
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:30:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:29:13-50
+activity#activity.ConferenceInfo
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:31:9-33:52
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:33:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:32:13-51
+activity#activity.KeyNote
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:34:9-36:52
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:36:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:35:13-44
+activity#activity.KeynoteDetail
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:37:9-39:52
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:39:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:38:13-50
+activity#activity.ProgramByDay
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:40:9-42:52
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:42:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:41:13-49
+activity#activity.PaperInSession
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:43:9-45:52
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:45:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:44:13-51
+activity#activity.UserDetail
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:46:9-48:52
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:48:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:47:13-47
+activity#activity.PaperInfo
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:49:9-51:52
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:51:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:50:13-46
+activity#activity.PaperAttending
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:52:9-54:52
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:54:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:53:13-51
+activity#activity.PaperSimilar
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:55:9-57:52
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:57:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:56:13-49
+activity#activity.PaperDetail
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:58:9-60:52
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:60:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:59:13-48
+activity#activity.MyScheduledPapers
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:61:9-63:52
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:63:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:62:13-54
+activity#activity.MyStaredPapers
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:64:9-66:52
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:66:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:65:13-51
+activity#activity.MyRecommendedPapers
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:67:9-69:52
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:69:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:68:13-56
+activity#activity.Signin
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:70:9-72:52
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:72:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:71:13-43
+activity#activity.Signup
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:73:9-75:52
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:75:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:74:13-43
+activity#activity.Workshops
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:76:9-78:52
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:78:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:77:13-46
+activity#activity.WorkshopDetail
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:79:9-81:52
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:81:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:80:13-51
+activity#activity.Posters
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:82:9-84:52
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:84:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:83:13-44
+activity#activity.PosterDetail
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:85:9-87:52
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:87:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:86:13-49
+activity#activity.ProceedingsByAuthor
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:88:9-90:52
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:90:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:89:13-56
+activity#activity.ProceedingsByName
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:91:9-93:52
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:93:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:92:13-54
+activity#activity.ProceedingsByType
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:94:9-96:52
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:96:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:95:13-54
+activity#activity.Proceedings
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:97:9-99:52
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:99:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:98:13-48
+activity#activity.FirstLaunchUpdate
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:100:9-103:20
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:102:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:101:13-54
+activity#activity.Tutorials
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:104:9-107:20
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:106:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:105:13-46
+activity#activity.Authors
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:108:9-111:20
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:110:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:109:13-44
+activity#activity.AuthorDetail
+ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:112:9-115:20
+	android:screenOrientation
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:114:13-49
+	android:name
+		ADDED from C:\Users\gaow1\Desktop\HT2016\app\src\main\AndroidManifest.xml:113:13-49

@@ -1,0 +1,48 @@
+<RelativeLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <TextView android:id="@+id/text_first_char_hint"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"   
+        android:background="@drawable/YellowSilver"
+        android:textColor="@drawable/White"
+        android:visibility="gone">  
+    </TextView> 
+    <LinearLayout android:id="@+id/LinearLayout01"
+    	android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"
+    	android:orientation="vertical"
+    	android:layout_below="@id/text_first_char_hint"
+    	android:background="@drawable/White"
+    	android:paddingLeft="20dip">
+	<TextView android:id="@+id/title"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@drawable/darkblue"
+		android:textStyle="bold"
+		android:background="@drawable/White"
+		android:padding="5pt">
+	</TextView>
+	<TextView  android:id="@+id/time"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textColor="@drawable/Gray"
+        android:background="@drawable/White"
+        android:paddingBottom="5pt"
+        android:paddingLeft="5pt"
+        android:paddingRight="5pt"
+        android:visibility="gone">
+	</TextView>
+	<TextView  android:id="@+id/location"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textColor="@drawable/Gray"
+        android:background="@drawable/White"
+        android:paddingBottom="5pt"
+        android:paddingLeft="5pt"
+        android:paddingRight="5pt">
+	</TextView>
+	</LinearLayout>
+</RelativeLayout >

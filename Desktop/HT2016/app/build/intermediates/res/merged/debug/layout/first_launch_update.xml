@@ -1,0 +1,110 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout10"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back2">
+
+    <FrameLayout
+        android:id="@+id/FrameLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundrectshape">
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Update database"
+            android:textColor="@drawable/White"
+            android:textSize="10pt"
+            android:textStyle="bold">
+        </TextView>
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/roundshape"
+        android:paddingLeft="5pt"
+        android:paddingRight="5pt">
+
+        <TextView
+            android:id="@+id/show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="First launch, loading conference data"
+            android:textColor="@drawable/White"
+            android:textSize="8pt">
+        </TextView>
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_below="@id/show"
+            android:background="#FF909090" />
+
+        <TextView
+            android:id="@+id/keynoteupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view1"
+            android:drawableLeft="@drawable/database"
+            android:text="Ready to update keynote information"
+            android:textColor="@drawable/White">
+        </TextView>
+
+        <TextView
+            android:id="@+id/sessionupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/keynoteupdate"
+            android:drawableLeft="@drawable/database"
+            android:text="Ready to update session information"
+            android:textColor="@drawable/White">
+        </TextView>
+
+        <TextView
+            android:id="@+id/presentationupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sessionupdate"
+            android:drawableLeft="@drawable/database"
+            android:text="Ready to update presentation information"
+            android:textColor="@drawable/White">
+        </TextView>
+
+        <TextView
+            android:id="@+id/paperupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/presentationupdate"
+            android:drawableLeft="@drawable/database"
+            android:text="Ready to update paper information"
+            android:textColor="@drawable/White">
+        </TextView>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_below="@id/paperupdate"
+            android:background="#FF909090" />
+
+        <TextView
+            android:id="@+id/success"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view2"
+            android:layout_centerHorizontal="true"
+            android:textColor="@drawable/White"
+            android:textSize="8pt">
+        </TextView>
+    </RelativeLayout>
+</RelativeLayout>

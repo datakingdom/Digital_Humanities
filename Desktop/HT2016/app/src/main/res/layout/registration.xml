@@ -1,0 +1,54 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/back2"
+	android:stretchColumns="1">
+
+	<TableRow>
+		<TextView android:text="Screen Name" android:textStyle="bold"
+			android:gravity="right" android:padding="3dip" android:textColor="@drawable/White" />
+
+		<EditText android:id="@+id/NameText" android:padding="3dip"
+			android:scrollHorizontally="true" android:singleLine="true"/>
+	</TableRow>
+	
+    <TableRow>
+		<TextView android:text="Email Address" android:textStyle="bold"
+			android:gravity="right" android:padding="3dip" android:textColor="@drawable/White"/>
+
+		<EditText android:id="@+id/REmailText" android:padding="3dip"
+			android:scrollHorizontally="true" android:singleLine="true"/>
+	</TableRow>
+	
+	<TableRow>
+		<TextView android:text="Password " android:textStyle="bold"
+			android:gravity="right" android:padding="3dip" android:textColor="@drawable/White"/>
+
+		<EditText android:id="@+id/RPasswordText" android:password="true"
+			android:padding="3dip" android:scrollHorizontally="true" android:singleLine="true"/>
+	</TableRow>
+	
+	<TableRow>
+		<TextView android:text="Re-enter Password " android:textStyle="bold"
+			android:gravity="right" android:padding="3dip" android:textColor="@drawable/White" />
+
+		<EditText android:id="@+id/RePasswordText" android:password="true"
+			android:padding="3dip" android:scrollHorizontally="true" android:singleLine="true"/>
+	</TableRow>
+	
+	<TableRow>
+		<TextView android:text="CiteULike Username" android:textStyle="bold"
+			android:gravity="right" android:padding="3dip" android:textColor="@drawable/White"/>
+
+		<EditText android:id="@+id/CiteULikeUser" 
+			android:padding="3dip" android:scrollHorizontally="true" android:singleLine="true"/>
+	</TableRow>
+
+	<TableRow android:gravity="right">
+
+		<Button android:id="@+id/SigninButton"
+			android:text="Sign in?" />
+
+		<Button android:id="@+id/RegisterButton"
+			android:text="Register" />
+	</TableRow>
+</TableLayout>
